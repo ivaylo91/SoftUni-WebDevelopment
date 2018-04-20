@@ -58,7 +58,8 @@ main h1 {
     font-size: 16px;
     margin-left: 30%;
 }
-.btn-primary:hover{
-    color:#fff;
+.btn-primary:hover {
+    color: #fff;
     background: #8EC45B;
+    border: none;
 }

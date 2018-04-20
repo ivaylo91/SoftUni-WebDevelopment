@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+body {
+    font: 16px 'Lato', sans-serif;
+    background: #24437C;
+    color: #fff;
+}
+
+.nav-brand {
+    float: left;
+    padding-left: 30px;
+}
+
+.nav-primary {
+    float: right;
+    padding-right: 50px;
+}
+
+.nav-primary li {
+    text-align: right;
+    display: inline-block;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+
+.nav-primary li a:hover {
+    background: #3DC1EF;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.nav-primary li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-title {
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.header-subtitle {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 200;
+    color: #3C74A3;
+    font-size: 30px;
+}
+
+#button-container {
+    margin: 0 auto;
+    text-transform: capitalize;
+    background: #3DC1EF;
+    border-radius: 16px;
+    text-align: center;
+    padding: 15px;
+    width: 7%;
+}
+
+.header-services {
+    text-align: center;
+}
+
+.service {
+    width: 18%;
+    display: inline-block;
+    text-align: left;
+    padding: 55px;
+}
+
+.service:hover {
+    background: #3DC1EF;
+    cursor: pointer;
+}
+
+.service-title {
+    width: 50%;
+    font-weight: 200;
+}
+
+.service-intro {
+    padding-top: 20px;
+}
+
+.service-link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+}
