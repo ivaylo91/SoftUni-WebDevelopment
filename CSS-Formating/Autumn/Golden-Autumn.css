@@ -67,4 +67,11 @@ button{
 button:hover{
     background: #e9f4f5;
     color:#ff0000;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    color:#ffff00;
+    padding: 10px;
+    text-transform: uppercase;
 }
