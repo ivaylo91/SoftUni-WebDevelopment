@@ -1,0 +1,89 @@
+section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #2e2e2e;
+}
+
+h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #B9B89D;
+    text-transform: capitalize;
+}
+
+div {
+    display: inline-block;
+}
+
+.facebook {
+    background: url('images/social.jpg');
+    width: 72px;
+    height: 60px;
+}
+
+.linkedin {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 60px;
+    background-position: -192px 2px;
+}
+
+.youtube {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 60px;
+    background-position: 327px 0;
+}
+
+.twitter {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 60px;
+    background-position: 771px 0;
+}
+
+.facebook:hover {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 60px;
+    background-position: 1px bottom;
+}
+
+.linkedin:hover {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 60px;
+    background-position: -192px 62px;
+}
+
+.youtube:hover {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 60px;
+    background-position: 327px 61px;
+}
+
+.twitter:hover {
+    background: url("images/social.jpg");
+    width: 72px;
+    height: 60px;
+    background-position: 771px 61px;
+}
