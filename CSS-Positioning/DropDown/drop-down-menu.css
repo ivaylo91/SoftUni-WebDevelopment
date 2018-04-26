@@ -4,6 +4,7 @@ body {
     background: #212622;
     font-family: OpenSans, sans-serif;
     text-align: center;
+    font-size: 22px;
 }
 
 ul {
@@ -19,12 +20,9 @@ a {
     color: #fff;
     text-decoration: none;
 }
-
 .drop-down-first, .drop-down-second {
     display: none;
     padding:0;
-}
-.first-items{
 }
 #web-design {
     position: relative;
@@ -40,5 +38,5 @@ a {
     display: block;
     position: absolute;
     top: 90px;
-    left: 95px;
+    left: 110px;
 }
