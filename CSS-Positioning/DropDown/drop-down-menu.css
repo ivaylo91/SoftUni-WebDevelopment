@@ -22,6 +22,7 @@ a {
 
 .drop-down-first, .drop-down-second {
     display: none;
+    padding:0;
 }
 .first-items{
 }
@@ -39,5 +40,5 @@ a {
     display: block;
     position: absolute;
     top: 90px;
-    left: 140px;
+    left: 95px;
 }
