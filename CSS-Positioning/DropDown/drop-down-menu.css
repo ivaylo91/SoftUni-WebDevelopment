@@ -37,6 +37,6 @@ a {
 #tutorials:hover .drop-down-second {
     display: block;
     position: absolute;
-    top: 90px;
-    left: 110px;
+    top: 110px;
+    left: 120px;
 }
