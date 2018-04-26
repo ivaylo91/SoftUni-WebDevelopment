@@ -1,0 +1,27 @@
+body{
+    width: 65%;
+    margin: auto;
+}
+div{
+    background: #6A9AEE;
+    padding: 10px;
+    border-radius: 6px;
+    width: 140px;
+    text-align: center;
+}
+.float-left{
+    float: left;
+    margin-right: 10px;
+}
+.float-right{
+    float: right;
+}
+.center{
+    margin: auto;
+    width: 140px;
+    text-align: center;
+}
+p{
+    margin-left: 10px;
+    line-height: 24px;
+}
