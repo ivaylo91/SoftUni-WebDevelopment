@@ -1,0 +1,59 @@
+body {
+    width: 1000px;
+    margin: auto;
+    font: 15px Tahoma, Arial, sans-serif;
+    color: #191923;
+    background: #cdcdcc;
+}
+
+nav {
+    background: #fefefe;
+    height: 80px;
+    margin-bottom: 50px;
+    width: 87%;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li:first-of-type a {
+    text-transform: capitalize;
+    color: #BF1363;
+}
+
+nav li a:hover {
+    color: #BF1363;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+
+article {
+    width: 20%;
+    height: 320px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    background: #FFFFFF;
+}
+
+h4 {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+p {
+    padding: 10px;
+}
