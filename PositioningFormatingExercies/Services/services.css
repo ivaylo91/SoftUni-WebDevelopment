@@ -32,3 +32,11 @@ article:hover{
     background: #f7f7f6;
     border-left: 10px solid #00978E;
 }
+h4{
+    font-family: OpenSans-ExtraBold, sans-serif;
+    font-size: 18px;
+    color:#807f7D;
+}
+p{
+    color:#868d93;
+}
