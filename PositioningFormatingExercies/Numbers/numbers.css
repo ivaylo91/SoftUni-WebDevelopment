@@ -2,6 +2,7 @@ body{
     font-family: Arial,Helvetica,sans-serif;
     width: 800px;
     margin: auto;
+    font-size: 12px;
 }
 header{
     background: #dfdfdf;
@@ -33,12 +34,16 @@ article{
     background: #9976DE;
     border-radius: 50%;
     text-align: center;
+    color:#fff;
+}
+.dot:hover{
+    background: #ffff;
+    color:#9976DE;
 }
 span{
     font-size: 30px;
     position: relative;
     top:50px;
-    color:#fff;
 }
 button{
     width: 120px;
@@ -46,6 +51,15 @@ button{
     border: none;
     background: #dfdfdf;
     padding: 10px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border-radius: 6px;
+    font-size: 14px;
+}
+button:hover{
+    cursor: pointer;
+    background: #ffffff;
+}
+p{
+    text-align: center;
+    color:#d0b5ca;
 }
