@@ -188,7 +188,7 @@ h5 {
     position: absolute;
     top: 70px;
     right: 40px;
-    width: 500px;
+    width: 520px;
     padding: 64px 60px 53px 60px;
     background: rgba(255, 255, 255, .7);
 }
@@ -229,4 +229,16 @@ footer {
     justify-content: space-around;
     color: #ffffff;
     padding: 10px;
+}
+.partners{
+    margin-top: 45px;
+    text-align: center;
+    height: 100px;
+}
+.partners li {
+    display: inline-block;
+}
+.partners img {
+    width: 135px;
+    height: 60px;
 }
