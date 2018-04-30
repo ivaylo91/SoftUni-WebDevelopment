@@ -127,4 +127,47 @@ h5 {
     opacity: 0.6;
 }
 
+.traders {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0,
+    0.6)), url('images/background-choose-us.jpg') no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    height: 500px;
+}
+
+.traders > h2 {
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.traders article {
+    display: inline-block;
+    width: 20%;
+    color: #fff;
+    text-align: justify;
+    margin-left: 60px;
+    border: 2px solid #C0720B;
+    padding: 30px;
+}
+.traders article p{
+    line-height: 20px;
+}
+.traders h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.traders h4 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.article-container {
+    text-align: center;
+    margin-top: 100px;
+}
 
