@@ -279,3 +279,44 @@ footer {
     background: rgb(131, 131, 143);
     color: #090821;
 }
+.info-socials-container h2 {
+    font-size: 25px;
+}
+.extra-links h2{
+    font-size: 25px;
+}
+.extra-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.extra-links ul li {
+    display: block;
+    padding: 5px;
+}
+
+.extra-links ul li a {
+    color: #c7963a;
+    text-decoration: none;
+}
+.instagram-widget h2 {
+    font-size: 25px;
+}
+.instagram-widget ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.instagram-widget img {
+    width: 100px;
+    height: 100px;
+}
