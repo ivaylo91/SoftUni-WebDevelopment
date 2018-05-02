@@ -1,0 +1,76 @@
+body {
+    background: #927057;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    border: solid #D5C395;
+    margin-top: 40px;
+    width: 100px;
+}
+
+main {
+    width: 20%;
+    background: #D5C395;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: left;
+}
+
+h2 {
+    color: #FBF9F6;
+}
+
+.name img, .pass img {
+    position: relative;
+    left: 28px;
+    top: 6px;
+}
+
+input[type='text'], input[type='password'] {
+    padding: 5px 0 5px 30px;
+    border: none;
+    width: 70%;
+}
+
+input {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form {
+    text-align: left;
+}
+
+h2, input[type='submit'] {
+    margin-left: 23px;
+}
+
+input[type='submit'] {
+    width: 78%;
+    background: #927057;
+    color: #D5C395;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
+
+.triangle {
+    border: none;
+    position: relative;
+    top:60px;
+    right: 62px;
+    width: 60px;
+}
