@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', sans-serif;
+}
+
+header {
+    margin: 0 0 20px 0;
+    padding: 20px;
+    border-bottom: 1px solid #E6E6E6;
+    color: #908E8E;
+}
+
+main {
+    width: 20%;
+    margin: 20px auto;
+    background: #F8F8F8;
+    padding: 20px;
+    border: 1px solid #E6E6E6;
+}
+
+input, textarea, select, input[type='button'] {
+    margin-bottom: 20px;
+}
+
+label {
+    float: left;
+    margin-right: 5px;
+    color: #888;
+}
+
+input {
+    display: block;
+}
+
+input[type='text'] {
+    width: 70%;
+}
+
+select {
+    margin-left: 20px;
+    width: 75%;
+    color: #888
+}
+
+textarea {
+    margin-left: 15px;
+}
+
+::placeholder {
+    color: #888;
+}
+
+input[type='submit'] {
+    border: none;
+    background: #E47B7B;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 80px;
+    width: 40%;
+}
