@@ -54,6 +54,7 @@ header nav ul li:nth-child(4) a::before {
 
 header nav li:hover {
     background: #3BBC96;
+    cursor: pointer;
 }
 
 header nav li:hover a {
@@ -89,7 +90,7 @@ input[type='submit'] {
     text-transform: uppercase;
     color: #CED1CA;
     position: relative;
-    bottom:80px;
+    bottom: 80px;
     left: 20px;
 }
 
