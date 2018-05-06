@@ -1,0 +1,100 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+@font-face {
+    src: url("fonts/tahoma.ttf") format("truetype");
+    font-family: Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    background: #384452;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+header nav ul li a {
+    color: #8BAEC2;
+    text-decoration: none;
+}
+
+header nav ul li a:before {
+    font-family: 'FontAwesome', serif;
+}
+
+header nav ul li:first-child a::before {
+    content: '\f002';
+    padding: 10px;
+}
+
+header nav ul li:nth-child(2) a::before {
+    content: '\f02c';
+    padding: 10px;
+}
+
+header nav ul li:nth-child(3) a::before {
+    content: '\f041';
+    padding: 10px;
+}
+
+header nav ul li:nth-child(4) a::before {
+    content: '\f007';
+    padding: 10px;
+}
+
+header nav li:hover {
+    background: #3BBC96;
+}
+
+header nav li:hover a {
+    color: #ffff;
+}
+
+main {
+    background: #EEEEEE;
+    width: 50%;
+    padding: 30px;
+}
+
+label {
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+span {
+    color: #384D81;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type='submit'] {
+    width: 210px;
+    background: #384452;;
+    text-transform: uppercase;
+    color: #CED1CA;
+    position: relative;
+    bottom:80px;
+    left: 20px;
+}
+
+input[type='submit']:hover {
+    background: #3BBC96;
+    color: #FFF7E4;
+    cursor: pointer;
+}
