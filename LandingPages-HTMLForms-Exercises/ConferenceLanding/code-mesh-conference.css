@@ -9,3 +9,101 @@
 body {
     font: 14px 'Roboto', sans-serif;
 }
+
+header {
+    background: linear-gradient(rgba(25, 25, 25, 0.8), rgba(20, 20, 20, 0.8)),
+    url("img/header-bg.png") no-repeat center 0;
+    background-size: cover;
+    padding: 25px;
+    height: 1055px;
+}
+
+#logo {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    float: left;
+    font-weight: bold;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 25px 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main-section {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 80px;
+    color: #ffffff;
+    width: 100%;
+}
+
+#main-section > h1 {
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#main-section > i {
+    position: relative;
+    top: 15px;
+    left: 50px;
+    font-size: 80px;
+}
+#article-section{
+    text-align: center;
+}
+header section article {
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    padding: 30px;
+    color: #fff;
+    margin-top: 150px;
+    text-align: left;
+    font-size: 16px;
+}
+header section article i{
+    padding:30px;
+}
+#content{
+    text-align: center;
+    padding-top: 50px;
+}
+#line{
+    border-bottom:  1px solid #eee;
+}
+main section article{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 80px;
+}
+main section article > h2{
+    width: 75%;
+}
+main section article > p{
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.orange-background{
+    background: rgba(255,127,80,0.7);
+    width: 150px;
+    height: 200px;
+}
