@@ -42,6 +42,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #FC6E22;
+    cursor: pointer;
+}
+
 #main-section {
     text-align: center;
     margin-top: 250px;
@@ -65,9 +70,11 @@ nav ul li a {
     left: 50px;
     font-size: 80px;
 }
-#article-section{
+
+#article-section {
     text-align: center;
 }
+
 header section article {
     display: inline-block;
     width: 18%;
@@ -77,33 +84,73 @@ header section article {
     margin-top: 150px;
     text-align: left;
     font-size: 16px;
+    height: 410px;
 }
-header section article i{
-    padding:30px;
+
+header section article:hover {
+    border-bottom: 13px solid #FC6E22;
+    cursor: pointer;
 }
-#content{
+
+header section article i {
+    padding: 30px;
+}
+
+#content {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 90px;
 }
-#line{
-    border-bottom:  1px solid #eee;
+
+#line {
+    border-bottom: 1px solid #eee;
 }
-main section article{
-    width: 15%;
+
+main section article {
+    width: 16%;
     display: inline-block;
     vertical-align: top;
-    text-align: left;
-    margin-left: 80px;
+    padding-left: 70px;
+
 }
-main section article > h2{
-    width: 75%;
+
+main section article > h2 {
+    width: 82%;
+    text-align: right;
+    margin: 55px 0 55px 45px;
 }
-main section article > p{
+
+main section article > p {
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 18px;
 }
-.orange-background{
-    background: rgba(255,127,80,0.7);
-    width: 150px;
-    height: 200px;
+
+.orange-background {
+    background: rgba(255, 127, 80, 0.7);
+    width: 480px;
+    height: 560px;
+    float: right;
+    position: relative;
+    bottom: 575px;
+}
+
+.author {
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.middle-text-align-left {
+    text-align: left;
+    margin: 0 50px;
+}
+
+#schedule {
+    background: #424450;
+    margin-top: 40px;
+}
+
+#schedule h3 {
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: #fff;
 }
