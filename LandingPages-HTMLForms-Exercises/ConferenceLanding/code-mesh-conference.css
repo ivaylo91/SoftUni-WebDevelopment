@@ -74,7 +74,6 @@ nav ul li a:hover {
 #article-section {
     text-align: center;
 }
-
 header section article {
     display: inline-block;
     width: 18%;
@@ -95,7 +94,6 @@ header section article:hover {
 header section article i {
     padding: 30px;
 }
-
 #content {
     text-align: center;
     padding-top: 90px;
@@ -130,7 +128,7 @@ main section article > p {
     height: 560px;
     float: right;
     position: relative;
-    bottom: 575px;
+    bottom: 707px;
 }
 
 .author {
